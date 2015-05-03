@@ -1,0 +1,6 @@
+.box a:link, .box a:visited {
+  color: white;
+}
+.box a:hover, .box a:focus, .box a:active, .box a.active {
+  color: black;
+}

@@ -1,0 +1,13 @@
+@mixin link
+    &:link, &:visited
+        @content
+
+@mixin link-hover
+    &:hover, &:focus, &:active, &.active
+        @content
+    
+.box a
+    @include link
+        color: #fff
+    @include link-hover
+        color: #000

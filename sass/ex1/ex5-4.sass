@@ -1,0 +1,17 @@
+%all-h1
+    font-size: 20px
+    line-height: 1.8
+    letter-spacing: 1px
+    
+@mixin all-h1($color:#000)
+    @extend %all-h1
+    color: $color
+    
+.header h1 
+    +all-h1(#333)
+
+.content h1
+    +all-h1(#444)
+    
+.footer h1
+    +all-h1

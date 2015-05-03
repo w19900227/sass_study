@@ -1,0 +1,11 @@
+$font-size : 13px
+@mixin bg($bgcolor:#000)
+    background: $bgcolor
+    font-size: $font-size
+
+.header
+    +bg
+
+.content
+    +bg(#fff)
+

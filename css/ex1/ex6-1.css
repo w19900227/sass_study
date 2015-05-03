@@ -1,0 +1,15 @@
+.box1 {
+  width: 50px;
+}
+.ie8 .box1 {
+  background: black;
+  color: white;
+  border: 1px solid #1a1a1a;
+}
+
+.box2 {
+  width: 50px;
+}
+.ie8 .box2 {
+  background: black;
+}

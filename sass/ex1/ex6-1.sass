@@ -1,0 +1,17 @@
+@mixin bg($text-color, $bg-color) 
+    .ie8 &
+        background: $bg-color
+        color: $text-color
+        @content
+
+.box1
+    width: 50px
+    @include bg(#fff, #000) 
+        border: 1px solid lighten(#000, 10)
+        
+.box2
+    width: 50px
+    .ie8 &
+        background: #000
+
+

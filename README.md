@@ -1,1 +1,1 @@
-# sass_study
+# study_sass
